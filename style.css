@@ -1,0 +1,152 @@
+html {
+    /* height: 100; */
+}
+
+
+body {
+    background-image: url(images/background-image.jpg);
+}
+
+header {
+    width: 1000px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+header img {
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+nav {
+    width: 1000px;
+    min-height: 50px;
+    background-color: rgba(82, 79, 79, 0.144);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center; 
+}
+
+
+nav a {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.box1 {
+    width: 1000px;
+    min-height: 300px;
+    /* background-color: rgb(95, 95, 146); */
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.def-1 {
+    flex: 1;
+    /* margin: auto; */
+    /* padding: 50px; */
+    box-sizing: border-box;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 1.25rem;
+    color: honeydew;
+    
+}
+
+.content section img {
+    flex: 1;
+    width: 250px;
+    margin: 50px;
+    
+}
+
+.box2 {
+    width: 1000px;
+    min-height: 700px;
+    /* background-color: rgb(30, 30, 124); */
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+.box2 h1 {
+    display: block;
+    text-align: center;
+    /* margin: 50px; */
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.work h2{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+}
+
+.work-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.work-1 img {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.work-1 h2 {
+    margin: auto;
+    padding: auto;
+}
+
+.work-2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.work-2 img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.work-2 h2 {
+    margin: auto;
+    padding: auto;
+
+}
+
+footer {
+    width: 1000px;
+    min-height: 200px;
+    /* background-color: rgb(95, 95, 146); */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.25rem;
+    color: whitesmoke;
+}
